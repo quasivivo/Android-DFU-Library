@@ -47,10 +47,10 @@ import no.nordicsemi.android.error.LegacyDfuError;
 
 /* package */ class LegacyDfuImpl extends BaseCustomDfuImpl {
 	// UUIDs used by the DFU
-	protected static final UUID DFU_SERVICE_UUID = new UUID(0x000015301212EFDEL, 0x1523785FEABCD123L);
-	protected static final UUID DFU_CONTROL_POINT_UUID = new UUID(0x000015311212EFDEL, 0x1523785FEABCD123L);
-	protected static final UUID DFU_PACKET_UUID = new UUID(0x000015321212EFDEL, 0x1523785FEABCD123L);
-	protected static final UUID DFU_VERSION = new UUID(0x000015341212EFDEL, 0x1523785FEABCD123L);
+	protected static final UUID DFU_SERVICE_UUID = new UUID(0xBEB815301212EFDEL, 0x1523785FEABCD123L);
+	protected static final UUID DFU_CONTROL_POINT_UUID = new UUID(0xBEB815311212EFDEL, 0x1523785FEABCD123L);
+	protected static final UUID DFU_PACKET_UUID = new UUID(0xBEB815321212EFDEL, 0x1523785FEABCD123L);
+	protected static final UUID DFU_VERSION = new UUID(0xBEB815341212EFDEL, 0x1523785FEABCD123L);
 
 	private static final int DFU_STATUS_SUCCESS = 1;
 	// Operation codes and packets
